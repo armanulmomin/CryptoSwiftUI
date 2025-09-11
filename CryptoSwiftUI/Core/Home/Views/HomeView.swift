@@ -15,7 +15,6 @@ struct HomeView: View {
             // background layer
             Color.theme.background
                 .ignoresSafeArea()
-            
             //content layer
             VStack{
                 homeHeader
@@ -31,12 +30,10 @@ struct HomeView: View {
                 }
                 Spacer(minLength: 0)
             }
-            
-           
-            
         }
     }
 }
+
 
 extension HomeView {
     private var homeHeader: some View {

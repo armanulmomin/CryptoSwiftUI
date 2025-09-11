@@ -12,7 +12,7 @@ extension Double{
         formatter.numberStyle = .currency
         formatter.locale = .current
         formatter.currencyCode = "USD"
-        formatter.currencySymbol = "%"
+        //formatter.currencySymbol = "%"
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 6
         return formatter
